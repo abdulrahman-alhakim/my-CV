@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
 body {
   position: relative;
 }
@@ -63,7 +68,7 @@ body {
 /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
 
 .navbar-expand-sm {
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 
 #myBtn {
@@ -72,16 +77,18 @@ body {
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  font-size: 18px;
-  border: none;
+  font-size: 30px;
+  border: 0;
   outline: none;
-  background-color: grey;
+  background-color: rgb(189, 189, 189);
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  padding: 10px;
+  border-radius: 40px;
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: rgb(164, 164, 164);
+  transform: scale(1.3);
+  transition: 50ms;
 }
